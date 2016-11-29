@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+
+.button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    height: 30px;
+    width: 75px;
+    background-color: black;
+    color: #777;
+    border: none;
+    opacity: 0.5;
+    outline-color: #777;
+}
+
+/* ==========================================================================
+   NAV
+   ========================================================================== */
+
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: whitesmoke;
+}
+
+.navbar-toggle {
+    z-index: 3;
+}
+
+.navbar {
+    border-radius: 0px;
+    background-color: transparent;
+    border: 0px;
+}
+
+.navbar a {
+    text-transform: uppercase;
+    font-family: "Opens Sans", sans-serif;
+    font-size: 1em;
+    color: whitesmoke;
+}
+
+.navbar-right {
+    margin-right: 10px;
+}
+
+
+
+.navbar-right a {
+    padding-bottom: 0px;
+}
+
+.navbar-brand {
+    font-size: 1.2em;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #232260;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0px;
+}
+
+.navbar-nav > li > a {
+    margin-right: 15px;
+}
+
+.navbar-nav {
+margin-left: 5vw;}
+
+
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-color: #222;
+    background-image: url(../img/trade-1311577_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 150px;
+    margin-bottom: 25px;
+}
+
+header div {
+    width: 530px;
+    height: 2px;
+    background-color: white;
+    margin: 15px;
+}
+
+h1, h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    font-weight: 600;
+    max-width: 530px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 1.892em;
+    font-weight: 400;
+}
+
+/* ==========================================================================
+   Pour qui ?
+   ========================================================================== */
+
+.pour-quoi {
+    height: 100vh;
+    width: 100%;
+    background-color: #222;
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pour-quoi h2 {
+    text-align: center;
+    max-width: 100%;
+    font-size: 2.5em;
+}
+
+.pour-quoi p {
+    display: block;
+    max-width: 70%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 1.6em;
+}
+
+.pour-quoi img {
+    height: 125px;
+    margin: 50px;
+}

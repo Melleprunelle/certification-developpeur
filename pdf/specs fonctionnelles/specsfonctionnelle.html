@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Spécifications fonctionnelles</title>
+    <link rel="stylesheet" href="stylepdf.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+</head>
+
+<body id="content">
+    <header>
+        <img src="img/information.svg" alt="">
+        <h1>Spécifications fonctionnelles</h1>
+    </header>
+
+    <section class="presentation">
+        <h1>I. Specifications fonctionnelles front-end</h1>
+        <h2>1. Module d'inscription</h2>
+        <p>
+            <bold>1.1 Comment s'inscrire ? </bold>
+        </p>
+        <div class="flex">
+            <img src="img/inscription/inscription.png" class="rotate-img col-6" alt="">
+            <div>
+                <p>
+                    L'accès à l'inscription se fait par le biais d'une modal à disposition du visiteur dans la barre de navigation du site. En cliquant sur le bouton de Login et de l'inscription, la modal s'ouvre laissant la possibilité au visiteur de se connecter ou de s'inscrire. A lui de faire son choix entre les deux types d'accès.
+                </p>
+                <p> Pour réaliser une inscription il faut que l'utilisteur renseigne tout les champs d'inscriptions obligatoires qui seront indiqués par un astérisque (Nom, Prénom, Pseudo, Email, Password, Repeat Password, Code Postale, Téléphone). Pour finaliser son incription, il lui reste à valider en cliquant sur le bouton "envoyer".
+                </p>
+            </div>
+        </div>
+
+
+        <p>
+            <bold>1.2 Action et Réponse :</bold> Lors de la navigation de l'utilisateur dans la partie inscription, il pourra accomplir des actions déclanchant des réponses de la part de l'application web.</p>
+
+        <TABLE BORDER="1">
+            <CAPTION> Action / Réponse </CAPTION>
+            <TR>
+                <TH> Se rendre sur la modal d'inscription en cliquant sur la partie attribuée à cette action dans la navbar </TH>
+                <TH> L'utilisateur à accès à la modal de connexion et d'inscription</TH>
+            </TR>
+            <TR>
+                <TH> Remplir les champs de coordonnées obligatoire au minimum </TH>
+                <TH> Lors d'une focalisation sur un champs, celui-ci passe en bleu corail pour signaler à l'utilisteur son emplacement dans son inscription</TH>
+            </TR>
+            <TR>
+                <TH>Valider son inscription en cliquant sur le bouton "envoyer"</TH>
+                <TH>Lors d'une erreur du remplissage du formulaire, les champs concernés par l'erreur passe en rouge et un message d'erreur s'affiche. Si l'inscription est validée, un message de confirmation contenant le pseudo de l'utilisateur est envoyé sur la boite e-mail de l'inscrit</TH>
+            </TR>
+            <TR>
+                <TH> Quitter la fenêtre d'inscription en cliquant sur la croix </TH>
+                <TH> Retour à la page consulté par l'utilisateur</TH>
+            </TR>
+            <TR>
+                <TH> Quitter la fenêtre d'inscription en cliquant en dehors de la modal</TH>
+                <TH> Retour à la page consulté par l'utilisateur</TH>
+            </TR>
+        </TABLE>
+        
+          <p>
+            <bold>1.3 Règles de gestion :</bold> Pour une bonne utilistation, certaine règles de gestion ont dû etre imposé.</p>
+
+        <TABLE BORDER="1">
+            <CAPTION> Élement concerné / Condition </CAPTION>
+            <TR>
+                <TH> Pseudo</TH>
+                <TH> 3 caractères minimum - 50 caractères maximum</TH>
+            </TR>
+            <TR>
+                <TH> Adresse email</TH>
+                <TH> 5 caractères minimum - 50 caractères maximum (dont un alphanumérique, un arobase, un point et une terminaison mail)</TH>
+            </TR>
+            <TR>
+                <TH> Password</TH>
+                <TH> 6 caractères minimum</TH>
+            </TR>
+            <TR>
+                <TH> Téléphone</TH>
+                <TH> 10 caractères minimum</TH>
+            </TR>
+            <TR>
+                <TH> Code Postal</TH>
+                <TH> 5 caractères minimum</TH>
+            </TR>
+            <TR>
+                <TH> Ville et région</TH>
+                <TH> S'adapte en fonction du code postal</TH>
+            </TR>
+        </TABLE>
+
+
+        <h2>2. Module de connexion</h2>
+        <p>
+            <bold>2.1 Comment se connecter ? </bold>
+        </p>
+        <div class="flex">
+            <img src="img/login/login.png" class="rotate-img col-6" alt="">
+            <div>
+                <p>
+                    L'accès de la connexion est identique à l'accès d'inscription.
+                </p>
+                <p> Pour réaliser une connexion il faut que l'utilisteur renseigne tout les champs de connexion. Pour finaliser sa connexion, il lui reste à valider en cliquant sur le bouton "envoyer".
+                </p>
+            </div>
+        </div>
+
+
+        <p>
+            <bold>2.2 Action et Réponse :</bold> Lors de la navigation de l'utilisateur dans la partie connexion, il pourra accomplir des actions déclanchant des réponses de la part de l'application web.</p>
+
+        <TABLE BORDER="1">
+            <CAPTION> Action / Réponse </CAPTION>
+            <TR>
+                <TH> Se rendre sur la modal de connexion en cliquant sur la partie attribuée à cette action dans la navbar </TH>
+                <TH> L'utilisateur à accès à la modal de connexion et d'inscription</TH>
+            </TR>
+            <TR>
+                <TH> Remplir les champs de coordonnées de connexion </TH>
+                <TH> Lors d'une focalisation sur un champs, celui-ci passe en bleu corail pour signaler à l'utilisteur son emplacement dans sa connexion</TH>
+            </TR>
+            <TR>
+                <TH>Valider sa connexion en cliquant sur le bouton "envoyer"</TH>
+                <TH>Lors d'une erreur du remplissage du formulaire, les champs concernés par l'erreur passe en rouge et un message d'erreur s'affiche. Si l'inscription est validée, il est directement redirigé vers sa session, soit la page "Mon Profil"</TH>
+            </TR>
+               
+            <TR>
+                <TH>Signaler un oubli de password</TH>
+                <TH>Ouverture d'une nouvelle page demandant à renseigner son email. Puis envoi d'un email à l'utilisateur, l'invitant à réinitialiser son password</TH>
+            </TR>
+            <TR>
+                <TH> Sélection de la checkbox de rappel de session </TH>
+                <TH> Lors de son utilisation, l'utilisateur reste connecté</TH>
+            </TR>
+        </TABLE>
+
+
+
+        <p style="margin-top: 70px">
+            <bold>1.3 Règles de gestion :</bold> Pour une bonne utilistation, certaine règles de gestion ont dû etre imposé.</p>
+
+        <TABLE BORDER="1">
+            <CAPTION> Élement concerné / Condition </CAPTION>
+            <TR>
+                <TH> Pseudo</TH>
+                <TH> 3 caractères minimum - 50 caractères maximum</TH>
+            </TR>
+            <TR>
+                <TH> Adresse email</TH>
+                <TH> 5 caractères minimum - 50 caractères maximum (dont un alphanumérique, un arobase, un point et une terminaison mail)</TH>
+            </TR>
+            <TR>
+                <TH> Password</TH>
+                <TH> 6 caractères minimum</TH>
+            </TR>
+        </TABLE>
+
+
+
+
+
+
+    </section>
+</body>
+
+<script>
+    function countWords(id) {
+        var content = document.getElementById(id).innerHTML;
+        content = content.split("");
+        return content.length;
+    }
+    console.log(countWords('content'));
+</script>
+
+</html>
