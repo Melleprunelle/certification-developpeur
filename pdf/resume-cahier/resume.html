@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Synthétisation "Bouée Corsaire"</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+</head>
+
+<body id="content">
+    <header>
+        <img src="img/information.svg" alt="">
+        <h1>Synthétisation "Bouée Corsaire"</h1>
+    </header>
+
+    <section class="presentation">
+        <h1>Introduction à l'application web "Bouée Corsaire"</h1>
+        <h2>Quel projet pour l'association ?</h2>
+        <p>
+            La "Bouée Corsaire" est une association qui désire mettre en relation les compétences de tout à chacun. Aujourd'hui, le gestionnaire réalise une bourse d'échange de services contre du temps entre particuliers. L'association réalise plus précisément un système de troc assuré par une comptabilité « débit/crédit » où celui qui effectue le service sera créditeur et celui qui le consomme sera débiteur. Bien sûr, la volonté sera que ces deux profils soient le plus souvent égals, c'est-à-dire que chacun soit alternativement prestataire ou consommateur. L'administration de ce système se réalisant à l'aide d'un tableur, la problématique d'organisation rencontré par le client à trouver sa résolution dans la conception d'une application web.
+        </p>
+        <p>
+            L'objectif de ce projet est de numériser ce système d'échange par le biais d'une application web. En réaction face à ce questionnement, la résolution de diffusion et d'administration devront être pris par un outil informatique. Par le biais du site, les utilisateurs de ce système pourront avoir leur propre compte, gérer leurs annonces de besoins ou services, consulter les propositions des autres utilisateurs et rentrer en contact les uns des autres. Ainsi, la créditation d'heure en échange d'un service rendu, pourra être plus facilement géré et être autonome sans l'approbation physique du gérant de l'association. Le but final de ce projet, étant par la suite, d'être mis à un niveau national, voir international.
+        </p>
+        <p>
+            En conclusion, Le site "Bouée Corsaire" est ici pour permettre à l'association de gérer plus facilement son concept de troc et de le rendre autonome. L'objectif étant de remettre au client la version 1.0 dans l'espace de deux mois. </p>
+    </section>
+</body>
+
+<script>
+    function countWords(id) {
+        var content = document.getElementById(id).innerHTML;
+        content = content.split(" ");
+        return content.length;
+    }
+    console.log(countWords('content'));
+</script>
+
+</html>
