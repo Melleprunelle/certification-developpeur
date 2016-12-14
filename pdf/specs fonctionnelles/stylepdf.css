@@ -19,10 +19,11 @@ header {
 header img {
     margin-right: 30px;
     width: 50px;
+    margin-bottom: 0px;
 }
 
 h1 {
-    width: 60%;
+    width: 80%;
     color: white;
 }
 
@@ -58,6 +59,7 @@ h1 {
     text-align: justify;
     margin-left: 50px;
     margin-bottom: 30px;
+    margin-top: 0px !important;
 }
 
 .presentation h3 {
@@ -71,7 +73,7 @@ h1 {
 }
 
 h4 {
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 ul h4 {
@@ -102,11 +104,15 @@ li p {
 
 bold {
     font-weight: 700;
+/*
     margin-left: 30px;
+*/
     text-transform: capitalize;
 }
 
 img {
+    display: block;
+    margin: 0 auto;
     width: 100%;
     margin-bottom: 20px;
 }
@@ -121,7 +127,6 @@ img {
     margin-bottom: 50px;
 }
 .techniques p {
-    margin-top: 0px !important;
     margin-bottom: 10px !important;
 }
 
@@ -138,10 +143,16 @@ img {
     justify-content: flex-start;
 }
 
+
+
 .flex img {
     width: 50%;
     height: 50%;
     margin-top: 0px;
+}
+
+.img-grande {
+    width: 30% !important;
 }
 
 .flex p {
@@ -157,6 +168,7 @@ TABLE {
     margin: 0 auto;
     width: 100%;
     margin-bottom: 30px;
+    border: 0;
 }
 
 CAPTION {
@@ -165,7 +177,7 @@ CAPTION {
     font-size: 0.9em;
 }
 TH {
-    padding: 8px;
+    padding: 7.8px;
     width: 20%;
     font-size: 0.83em;
     border: 1px solid lightgrey;
