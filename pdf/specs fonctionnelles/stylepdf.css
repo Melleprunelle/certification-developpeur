@@ -35,10 +35,10 @@ h1 {
 .presentation h1 {
     color: orangered;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 70px;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1.1em;
     border-bottom: 1px solid #1D9D84;
     height: 30px;
 }
@@ -46,20 +46,20 @@ h1 {
 .presentation h2 {
     width: 100%;
     color: #1d9d84;
-    font-size: 1.1em;
+    font-size: 1em;
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .presentation p {
-    font-size: 0.96em;
+    font-size: 0.9em;
     color: #111;
     text-align: justify;
     margin-left: 50px;
     margin-bottom: 30px;
-    margin-top: 0px !important;
+    margin-top: 0px;
 }
 
 .presentation h3 {
@@ -179,7 +179,7 @@ CAPTION {
 TH {
     padding: 7.8px;
     width: 20%;
-    font-size: 0.83em;
+    font-size: 0.9em;
     border: 1px solid lightgrey;
     text-align: left;
 }
