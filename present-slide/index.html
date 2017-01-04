@@ -12,29 +12,6 @@
 
 <body>
     <button class="button">next</button>
-    <!--NAVBAR DU SITE-->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="#startchange" class="js-scrollTo">La Bouée du Corsaire</a></li>
-                <li><a href="#presentation" class="js-scrollTo">présentation</a></li>
-                <li><a href="#diff" class="js-scrollTo">différence</a></li>
-                <li><a href="#app" class="js-scrollTo">Application</a></li>
-                <li><a href="#fonctionnement" class="js-scrollTo">fonctionnement</a></li>
-                <li><a href="#methodo" class="js-scrollTo">Methodo</a></li>
-                <li><a href="#technos" class="js-scrollTo">technos</a></li>
-                <li><a href="#conclu" class="js-scrollTo">conclusion</a></li>
-            </ul>
-        </div>
-    </nav>
 
     <header id="startchange">
         <img src="img/logo.jpg" alt="">
@@ -128,7 +105,7 @@
             <img src="img/52476.png" alt="">
         </div>
     </section>
-  
+
     <section class="pour-quoi special" id="presentation">
         <h2>L'interface de l'application</h2>
         <p>Réalisé par moi-même en HTML, CSS et TWIG</p>
@@ -154,7 +131,7 @@
         </div>
         <div>
             <h2>L'index, soit la page d'accueil</h2>
-            <p>L'accueil se compose d'un header en parralaxe, d'un introduction, des 6 dernières annonces et d'une présentation du gérant de l'association.</p>
+            <p>L'accueil se compose d'un header en parralaxe, d'une introduction, des six dernières annonces et d'une présentation du gérant de l'association.</p>
         </div>
     </section>
 
@@ -187,7 +164,7 @@
             <p>Une présentation du gérant de l'association.</p>
         </div>
     </section>
-       
+
     <section class="special-img" id="conclu">
         <div>
             <img src="img/inscription2.png" alt="">
@@ -197,8 +174,8 @@
             <p>L'inscription se fait à travers une modal.</p>
         </div>
     </section>
-       
-      <section class="special-img" id="conclu">
+
+    <section class="special-img" id="conclu">
         <div>
             <img src="img/connexion.png" alt="">
         </div>
@@ -225,7 +202,7 @@
         </div>
         <div>
             <h2>Système de recherche dans services et besoins</h2>
-            <p>Un formulaire de recherche et une navigation.</p>
+            <p>Une barre de recherche et une navigation.</p>
         </div>
     </section>
 
@@ -238,7 +215,7 @@
             <p>Chaque service ou besoin est représenté par une annonce. Un appel par le twig est réalisé à la base de données.</p>
         </div>
     </section>
-    
+
     <section class="pour-quoi special" id="presentation">
         <h2>Côté technique ?</h2>
         <p>MVC, UML, BPM</p>
@@ -246,20 +223,20 @@
             <img src="img/transfer.svg" alt="">
         </div>
     </section>
-    
+
     <section class="special-img" id="conclu">
         <div style="">
             <img src="img/pourcertifpresent.jpg" alt="">
         </div>
         <div>
             <h2>MVC - Paradigme</h2>
-            <p style="font-size: 2vw">&#9679; Le twig fait des appels controllers ----><small> ex : {{ service.title }}</small></p>
+            <p style="font-size: 2vw">&#9679; Le twig fait u appel au controller ----><small> ex : {{ service.title }}</small></p>
             <p style="font-size: 2vw">&#9679; Le controller fait un appel à la base de données pour vérification.</p>
-            <p style="font-size: 2vw">&#9679; La base de données renvois les informations liées à un model</p>
+            <p style="font-size: 2vw">&#9679; La base de données renvoit les informations liées à un model</p>
             <p style="font-size: 2vw">&#9679; Renvoyé lui-même au controller</p>
         </div>
     </section>
-    
+
     <section class="special-img" id="conclu">
         <div>
             <img src="img/uml.png" alt="">
@@ -269,7 +246,7 @@
             <p>Modélisation de la base de données.</p>
         </div>
     </section>
-    
+
     <section class="special-img" id="conclu">
         <div style="width: 50vw">
             <img src="img/BPML/ajoutservice.png" alt="">
@@ -282,8 +259,8 @@
             <p style="font-size: 2vw">&#9679; Service / besoin ajouté</p>
         </div>
     </section>
-       
- <section class="special-img" id="conclu">
+
+    <section class="special-img" id="conclu">
         <div style="width: 50vw">
             <img src="img/BPML/Login.png" alt="">
         </div>
@@ -295,14 +272,30 @@
             <p style="font-size: 2vw">&#9679; Service / besoin ajouté</p>
         </div>
     </section>
-    
-    
-    
+
+
+
     <section class="pour-quoi special" id="presentation">
         <h2>Conclusion</h2>
         <p>Le prochain sprint : l'interface utilisateur</p>
         <div>
-            <img src="img/workspace.svg" alt="">
+            <img src="img/user.svg" alt="">
+        </div>
+    </section>
+
+    <section class="pour-quoi" id="app">
+        <h2>Encore en construction</h2>
+        <p>L'interface utilisateur est à réaliser en fonction des spécifications prévisionnelles.</p>
+        <div>
+            <img src="img/wrench.svg" alt="">
+            <img src="img/power.svg" alt="">
+            <img src="img/layers.svg" alt="">
+        </div>
+    </section>
+    
+   <section class="pour-quoi special" id="presentation">
+        <div>
+            <img src="img/racing.svg" alt="">
         </div>
     </section>
 </body>
